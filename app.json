@@ -1,0 +1,17 @@
+{
+    "name": "V2proxy",
+    "description": "Deploy V2 proxy to Heroku.",
+    "env": {
+        "PROTOCOL": {
+            "description": "V2 protocol, could be vless or vmess",
+            "value": "vless"
+        },
+        "REQ_PATH": {
+            "description": "Request path for V2, could not be empty"
+        },
+        "UUID": {
+            "description": "V2 UUID for authentication"
+        }
+    },
+    "stack": "container"
+}
